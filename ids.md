@@ -1,5 +1,9 @@
 # Dovetail Custom Tables / Views
 
+Tables and Views that Dovetail has created as part of our products, examples, and customer projects.
+Use this master list and keep it up to date to avoid conflicts.
+
+
 | ID | Name | Application | Comment 
 --- | --- | --- | ---
 | 3500 | fc_string | SDK | Locale-based strings for First Choice Software Customizations 
