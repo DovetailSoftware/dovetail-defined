@@ -229,6 +229,10 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4670 | dt_file | FOCUS | Files, used as part of My Downloads in SelfService |
 | 4671 | dt_token | Agent 9 |
 | 4672 | dt_resource_token | Agent 9 |
+| 4673 | dt_task_set | Agent 10 | Dovetail Task Manager
+| 4674 | dt_task | Agent 10 | Dovetail Task Manager
+| 4675 | dt_property_template | Agent 10 | Dovetail Task Manager
+| 4676 | dt_configured_property | Agent 10 | Dovetail Task Manager
 | 4690 | x_time_log_view | Agent 4 |
 | 4691 | x_subc_time_log_view | Agent 4 |
 | 4698 | fc_wipelm_case | FOCUS |
