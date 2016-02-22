@@ -1,4 +1,7 @@
 ---
+layout: page
+title: Dovetail Custom Tables / Views
+description: Table/View IDs used by Dovetail
 ---
 
 # Dovetail Custom Tables / Views
