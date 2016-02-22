@@ -1,3 +1,8 @@
+---
+title: Dovetail Custom Tables / Views
+layout: post
+---
+
 # Dovetail Custom Tables / Views
 
 There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest are reserved for Clarify baseline use.
