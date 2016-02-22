@@ -1,527 +1,247 @@
-<html>
-<head>
-	<title>dovetail-defined schema</title>
-    <link href="site.css" media="screen" rel="stylesheet" type="text/css" />
-</head>
+# Dovetail Custom Tables / Views
 
-<body>
+There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest are reserved for Clarify baseline use.
 
-<h1>Dovetail Custom Tables / Views</h1>
-
-<p>There are two ranges reserves for custom IDs: 430-571 and 2000-4999.
-	The rest are reserved for Clarify baseline use.
-</p>
-
-<table class='tablesorter fullWidth top'>
-
-<thead>
-	<tr><td>ID</td><td>Name</td><td>Application</td><td>Comment</td></tr>
-</thead>
-
-<tbody>
-<tr>
-<td>501</td><td>tagged_case_alst</td><td>FOCUS</td><td >used by watched cases report</td>
-<tr>
-
-<tr>
-<td>3500</td><td>fc_string</td><td>SDK</td><td >Locale-based strings for First Choice Software Customizations</td>
-</tr>
-<tr>
-<td>3501</td><td>fc_list_hdr</td><td>SDK</td><td >Header record for First Choice Software list object</td>
-</tr>
-<tr>
-<td>3502</td><td>fc_list_level</td><td>SDK</td><td >One level of a First Choice Software list</td>
-</tr>
-<tr>
-<td>3503</td><td>fc_list_elm</td><td>SDK</td><td >One element in a First Choice Software list</td>
-</tr>
-<tr>
-<td>3504</td><td>fc_list_locelm</td><td>SDK</td><td >One locale string for an element in a First Choice Software list</td>
-</tr>
-<tr>
-<td>3505</td><td>fc_locale</td><td>SDK</td><td ></td>
-</tr>
-<tr>
-<td>3516</td><td>workgroup</td><td>Queue Groups, Admin, Agent 4</td><td ></td>
-</tr>
-<tr><td>3517</td><td></td><td>Queue Groups</td><td >Reserved for Queue Groups</td></tr>
-<tr><td>3518</td><td></td><td>Queue Groups</td><td >Reserved for Queue Groups</td></tr>
-<tr><td>3519</td><td></td><td>Queue Groups</td><td >Reserved for Queue Groups</td></tr>
-
-
-<tr><td>3520</td><td></td><td>Survey Taker</td><td >Reserved for Survey Taker</td></tr>
-<tr><td>3521</td><td></td><td>Survey Taker</td><td >Reserved for Survey Taker</td></tr>
-<tr><td>3522</td><td></td><td>Survey Taker</td><td >Reserved for Survey Taker</td></tr>
-<tr><td>3523</td><td></td><td>Survey Taker</td><td >Reserved for Survey Taker</td></tr>
-<tr><td>3524</td><td></td><td>Survey Taker</td><td >Reserved for Survey Taker</td></tr>
-
-<tr>
-<td>3525</td><td>sci_last_dir</td><td>SCI</td><td >Reserved for Source Control Interface</td>
-</tr>
-
-<tr><td>3526</td><td></td><td>SCI</td><td >Reserved for Source Control Interface</td></tr>
-<tr><td>3527</td><td></td><td>SCI</td><td >Reserved for Source Control Interface</td></tr>
-<tr><td>3528</td><td></td><td>SCI</td><td >Reserved for Source Control Interface</td></tr>
-<tr><td>3529</td><td></td><td>SCI</td><td >Reserved for Source Control Interface</td></tr>
-
-
-<tr><td>3530</td><td>work_order</td><td>Logistics</td><td ></td></tr>
-<tr><td>3531</td><td>work_order_moved</td><td>Logistics</td><td ></td></tr>
-<tr><td>3532</td><td>fifo_cost</td><td>Logistics</td><td ></td></tr>
-<tr><td>3533</td><td>fifo_cost_view</td><td>Logistics</td><td ></td></tr>
-<tr><td>3534</td><td>batch</td><td>Logistics</td><td ></td></tr>
-<tr><td>3535</td><td>container</td><td>Logistics</td><td ></td></tr>
-<tr><td>3536</td><td>cont_dtl_qty</td><td>Logistics</td><td ></td></tr>
-<tr><td>3537</td><td>container_view</td><td>Logistics</td><td ></td></tr>
-<tr><td>3538</td><td>batch_def</td><td>Logistics</td><td ></td></tr>
-<tr><td>3539</td><td>inv_sum</td><td>Logistics</td><td ></td></tr>
-<tr><td>3540</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3541</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3542</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3543</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3544</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3545</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3546</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3547</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3548</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-<tr><td>3549</td><td></td><td>Reserved for Logistics Products</td><td ></td></tr>
-
-<tr><td>3550</td><td>page_request</td><td>RPA</td><td ></td></tr>
-<tr><td>3551</td><td>page_response</td><td>RPA</td><td ></td></tr>
-<tr><td>3552</td><td>view_pages</td><td>RPA</td><td ></td></tr>
-<tr><td>3553</td><td></td><td>RPA</td><td >Reserved for RPA</td></tr>
-<tr><td>3554</td><td></td><td>RPA</td><td >Reserved for RPA</td></tr>
-
-<tr>
-<td>3555</td><td>zipcode</td><td>PCAL, Admin, Agent 4</td><td >Stores zipcodes and related city, state, country, timezone info</td>
-</tr>
-<tr><td>3556</td><td>street</td><td>PCAL</td><td ></td></tr>
-<tr><td>3557</td><td>street_suffix</td><td>PCAL</td><td ></td></tr>
-<tr><td>3558</td><td></td><td>PCAL</td><td >Reserved for PCAL</td></tr>
-
-<tr><td>3559</td><td>pet_view</td><td>PET</td><td >Product Email Tool</td></tr>
-
-<tr><td>3560</td><td>contracted_site_parts</td><td>FOCUS</td><td >Installed Parts Covered by a Contract </td></tr>
-
-<tr><td>3561</td><td>ami_object</td><td>AMI Interface</td><td ></td></tr>
-<tr><td>3562</td><td>ami_attr_history</td><td>AMI Interface</td><td ></td></tr>
-<tr><td>3563</td><td>ami_system</td><td>AMI Interface</td><td ></td></tr>
-<tr><td>3564</td><td>ami_system</td><td>AMI Interface</td><td >Reserved for AMI</td></tr>
-<tr><td>3565</td><td>ami_system</td><td>AMI Interface</td><td >Reserved for AMI</td></tr>
-<tr><td>3566</td><td>ami_system</td><td>AMI Interface</td><td >Reserved for AMI</td></tr>
-<tr><td>3567</td><td>ami_system</td><td>AMI Interface</td><td >Reserved for AMI</td></tr>
-<tr><td>3568</td><td>ami_system</td><td>AMI Interface</td><td >Reserved for AMI</td></tr>
-<tr><td>3569</td><td>ami_system</td><td>AMI Interface</td><td >Reserved for AMI</td></tr>
-
-<tr><td>3570</td><td></td><td>Flexible Pricing</td><td >Reserved for Flexible Pricing</td></tr>
-<tr><td>3571</td><td></td><td>Flexible Pricing</td><td >Reserved for Flexible Pricing</td></tr>
-<tr><td>3572</td><td></td><td>Flexible Pricing</td><td >Reserved for Flexible Pricing</td></tr>
-<tr><td>3573</td><td></td><td>Flexible Pricing</td><td >Reserved for Flexible Pricing</td></tr>
-<tr><td>3574</td><td></td><td>Flexible Pricing</td><td >Reserved for Flexible Pricing</td></tr>
-
-<tr><td>3579</td><td>fc_license_key</td><td>FOCUS</td><td >License Keys</td></tr>
-
-
-<tr>
-<td>3580</td><td>restriction</td><td>Admin, Agent, SDK</td><td >Restriction groups</td>
-</tr>
-<tr><td>3581</td><td></td><td>RES</td><td >Reserved for RES</td></tr>
-<tr><td>3582</td><td></td><td>RES</td><td >Reserved for RES</td></tr>
-<tr><td>3583</td><td></td><td>RES</td><td >Reserved for RES</td></tr>
-<tr><td>3584</td><td></td><td>RES</td><td >Reserved for RES</td></tr>
-
-<tr><td>3590</td><td></td><td>SLA Monitor</td><td >Reserved for SLAM</td></tr>
-<tr><td>3591</td><td></td><td>SLA Monitor</td><td >Reserved for SLAM</td></tr>
-<tr><td>3592</td><td></td><td>SLA Monitor</td><td >Reserved for SLAM</td></tr>
-<tr><td>3593</td><td></td><td>SLA Monitor</td><td >Reserved for SLAM</td></tr>
-<tr><td>3594</td><td></td><td>SLA Monitor</td><td >Reserved for SLAM</td></tr>
-
-
-<tr>
-<td>3600</td><td>query_objs</td><td>QA, Admin, Agent 4</td><td >Query objects</td>
-</tr>
-<tr>
-<td>3601</td><td>query_props</td><td>QA, Admin, Agent 4</td><td >Query properties</td>
-</tr>
-<tr>
-<td>3602</td><td>query_query</td><td>QA, Admin, Agent 4</td><td >One specific query</td>
-</tr>
-<tr>
-<td>3603</td><td>query_clause</td><td>QA, Admin, Agent 4</td><td >A clause for a specific query</td>
-</tr>
-<tr>
-<td>3604</td><td>query_param</td><td>QA, Admin, Agent 4</td><td >A parameter for a clause for a specific user</td>
-</tr>
-<tr><td>3605</td><td></td><td>QA</td><td >Reserved for Query Anything</td></tr>
-<tr><td>3606</td><td></td><td>QA</td><td >Reserved for Query Anything</td></tr>
-<tr><td>3607</td><td></td><td>QA</td><td >Reserved for Query Anything</td></tr>
-<tr><td>3608</td><td></td><td>QA</td><td >Reserved for Query Anything</td></tr>
-<tr><td>3609</td><td></td><td>QA</td><td >Reserved for Query Anything</td></tr>
-
-<tr><td>3610</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3611</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3612</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3613</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3614</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3615</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3616</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3617</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3618</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3619</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3620</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3621</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3622</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3623</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3624</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3625</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3626</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3627</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3628</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-<tr><td>3629</td><td></td><td>Vendor Ops</td><td >Reserved for Vendor Ops module</td></tr>
-
-
-<tr>
-<td>3630</td><td>recent_obj</td><td>Admin, Agent 4, Agent 5, ROOM</td><td >Recently Accessed objects</td>
-</tr>
-
-<tr><td>3635</td><td>sec_tag</td><td>SEC</td><td >Super email clerk header table </td></tr>
-<tr><td>3636</td><td>sec_subtag</td><td>SEC</td><td >Super email clerk subtag table </td></tr>
-<tr><td>3637</td><td>sec_error</td><td>SEC</td><td >Super email clerk error strings </td></tr>
-<tr><td>3638</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3639</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3640</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3641</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3642</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3643</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3644</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-<tr><td>3645</td><td></td><td>SEC</td><td >Reserved for Super Email Clerk</td></tr>
-
-<tr><td>3646</td><td>labor_rate</td><td>Consultant Invoicer</td><td ></td></tr>
-<tr><td>3647</td><td>case_emp_labor_rate_v</td><td>Consultant Invoicer</td><td ></td></tr>
-<tr><td>3648</td><td></td><td>Consultant Invoicer</td><td >Reserved for Consultant Invoicer</td></tr>
-<tr><td>3649</td><td></td><td>Consultant Invoicer</td><td >Reserved for Consultant Invoicer</td></tr>
-<tr><td>3650</td><td></td><td>Consultant Invoicer</td><td >Reserved for Consultant Invoicer</td></tr>
-
-
-<tr>
-<td>3700</td><td>email_recipients</td><td>EEO, Agent 4</td><td >Enhanced Emailer list of recipients</td>
-</tr>
-
-<tr>
-<td>4000</td><td>fc_case2rip_dfe</td><td></td><td >Reserved; obsolete</td>
-</tr>
-<tr>
-<td>4001</td><td>fc_text_view2</td><td></td><td >Reserved; obsolete</td>
-</tr>
-<tr><td>4270</td><td>preference_view</td><td>Merge</td><td></td></tr>
-
-<tr>
-<td>4271</td><td>merge_address_view</td><td>Merge, Agent 4</td><td >Joins address, country, state, and time_zone</td>
-</tr>
-
-<tr>
-<td>4300</td><td>alert_to_other</td><td>Flashes Anywhare, Agent 4</td><td >Relates alerts to other tables</td>
-</tr>
-<tr>
-<td>4301</td><td>alert_table</td><td>Flashes Anywhere, Agent 4</td><td >Lists tables that can have alerts on them. Also, query information for them.</td>
-</tr>
-<tr>
-<td>4302</td><td>alert_view</td><td>Flashes Anywhere, Agent 4</td><td >Alerts and alert_to_other</td>
-</tr>
-<tr>
-<td>4303</td><td>dt_search</td><td>Flashes Anywhere, Agent 4, Agent 5</td><td ></td>
-</tr>
-<tr>
-<td>4304</td><td>password_reset</td><td>Flashes Anywhere, Agent 4, Agent 5</td><td ></td>
-</tr>
-<tr>
-<td>4305</td><td></td><td>Flashes Anywhere</td><td >Reserved for Flashes Anywhere</td>
-</tr>
-
-<tr>
-<td>4310</td><td>ce_object</td><td>Agent 4</td><td >CE objects</td>
-</tr>
-<tr>
-<td>4311</td><td>ce_col</td><td>Agent 4</td><td >Properties/output/sort columns</td>
-</tr>
-<tr>
-<td>4312</td><td>ce_query</td><td>Agent 4</td><td >Data record for one query</td>
-</tr>
-<tr>
-<td>4313</td><td>ce_clause</td><td>Agent 4</td><td >A clause for a specific query</td>
-</tr>
-<tr>
-<td>4314</td><td>ce_param</td><td>Agent 4</td><td >A parameter for a clause for a specific user</td>
-</tr>
-<tr>
-<td>4315</td><td>ce_iconified</td><td>Agent 4</td><td >Iconified Queries</td>
-</tr>
-<tr>
-<td>4316</td><td>ce_query_col</td><td>Agent 4</td><td >Personalized Output Columns for a Query</td>
-</tr>
-
-<tr><td>4317</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4318</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4319</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4320</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4321</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4322</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4323</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4324</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4325</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4326</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4327</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4328</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-<tr><td>4329</td><td></td><td>Clarify Explorer</td><td >Reserved for CE</td></tr>
-
-<tr><td>4350</td><td></td><td>Login Monitor </td><td >Reserved for Login Monitor </td></tr>
-<tr><td>4351</td><td></td><td>Login Monitor </td><td >Reserved for Login Monitor </td></tr>
-<tr><td>4352</td><td></td><td>Login Monitor </td><td >Reserved for Login Monitor </td></tr>
-<tr><td>4353</td><td></td><td>Login Monitor </td><td >Reserved for Login Monitor </td></tr>
-<tr><td>4354</td><td></td><td>Login Monitor </td><td >Reserved for Login Monitor </td></tr>
-<tr><td>4355</td><td></td><td>Login Monitor </td><td >Reserved for Login Monitor </td></tr>
-
-
-<tr>
-<td>4400</td><td>console_columns</td><td>Agent 4</td><td >Personalized Console Columns</td>
-</tr>
-<tr>
-<td>4600</td><td>x_web_cmd</td><td>Admin, Agent 4, Agent 5</td><td >Commands available to web users.</td>
-</tr>
-<tr>
-<td>4601</td><td>res_tbls</td><td>RES, Admin, Agent 4</td><td >Tables that have restriction fields</td>
-</tr>
-<tr>
-<td>4602</td><td>res_sql_clause</td><td>RES, Admin, Agent 4</td><td >SQL clauses for restricting tables</td>
-</tr>
-<tr>
-<td>4603</td><td>assoc_bugs_master</td><td>Agent 4</td><td >View information of master CR for duplicates.</td>
-</tr>
-<tr>
-<td>4604</td><td>rep_bugs_master</td><td>Agent 4</td><td >View information of master CR for replicates.</td>
-</tr>
-<tr>
-<td>4605</td><td>fc_message</td><td>Agent 4</td><td >Defines a message used by the fcclient notifier</td>
-</tr>
-<tr>
-<td>4606</td><td>fc_color</td><td>Admin, Agent 4</td><td >Colors available for users to set</td>
-</tr>
-<tr>
-<td>4607</td><td>fc_valid_color</td><td>Admin, Agent 4</td><td >Valid colors for the system</td>
-</tr>
-<tr>
-<td>4608</td><td>interact_site</td><td>Agent 4</td><td >Joins interaction to site (via new relation for fcClient)</td>
-</tr>
-<tr>
-<td>4609</td><td>web_form</td><td>Admin, Agent 4</td><td >Each row represents one FCS web form</td>
-</tr>
-<tr>
-<td>4610</td><td>wf_ver</td><td>Admin, Agent 4</td><td >Each row represents one custom version of an FCS web form</td>
-</tr>
-<tr>
-<td>4611</td><td>web_rc_config</td><td>Admin, Agent 4</td><td >Displays web forms and versions in a resource configuration</td>
-</tr>
-<tr>
-<td>4612</td><td>pr_hdr_site</td><td>Agent 4</td><td >Joins part rquest header to site</td>
-</tr>
-<tr>
-<td>4615</td><td>fc_case_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4616</td><td>fc_contract_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4617</td><td>fc_gen_alst</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4618</td><td>fc_site_part_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4619</td><td>fc_bug_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4620</td><td>fc_acct_ind_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4621</td><td>fc_acct_task_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4622</td><td>fc_acct_opp_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4623</td><td>fc_acct_site_view</td><td>Agent 4</td><td >Account, site and address information used on form Console-Sales (12000)</td>
-</tr>
-<tr>
-<td>4624</td><td>fc_acct_notes_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4625</td><td>fc_acct_phone_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4626</td><td>fc_acct_email_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4627</td><td>fc_quote_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4628</td><td>fc_wipelm_task</td><td>Agent 4</td><td >View task information for WIPbin form (375)</td>
-</tr>
-<tr>
-<td>4629</td><td>fc_queelm_task</td><td>Agent 4</td><td >View task information for Queue form (375)</td>
-</tr>
-<tr>
-<td>4630</td><td>fc_mod_level_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4631</td><td>fc_cm_contact</td><td>Agent 4</td><td >Contract Manager - Related Contacts. Used in fcclient Contract Product Details Page</td>
-</tr>
-<tr>
-<td>4632</td><td>fc_cm_site</td><td>Agent 4</td><td >Contract Manager - Related Sites.</td>
-</tr>
-<tr>
-<td>4634</td><td>fc_login_monitor</td><td>Agent 4, Agent 5, Mobile</td><td ></td>
-</tr>
-<tr>
-<td>4635</td><td>fc_login_monitor_view</td><td>Agent 4, Agent 5, Mobile</td><td ></td>
-</tr>
-<tr>
-<td>4640</td><td>fc_hgbst_view</td><td>Admin</td><td ></td>
-</tr>
-<tr>
-<td>4641</td><td>fc_hgbst_view2</td><td>Admin</td><td ></td>
-</tr>
-<tr>
-<td>4650</td><td>fc_user_case_view</td><td>Agent</td><td ></td>
-</tr>
-<tr>
-<td>4651</td><td>fc_user_subcase_view</td><td>Agent</td><td ></td>
-</tr>
-<tr>
-<td>4652</td><td>fc_user_solution_view</td><td>Agent</td><td ></td>
-</tr>
-<tr>
-<tr>
-<td>4654</td><td>filter_query</td><td>Agent 5</td><td >Filter query</td>
-</tr>
-
-<tr>
-<td>4655</td><td>fc_product_releases</td><td>FOCUS</td><td ></td>
-</tr>
-
-<tr>
-<td>4656</td><td>filter_facet</td><td>Agent 5</td><td >Facets specified for a filter query</td>
-</tr>
-<tr>
-<td>4657</td><td>filter_sort</td><td>Agent 5</td><td >Sorts specified for a filter query</td>
-</tr>
-<tr>
-<td>4658</td><td>tag</td><td>Agent 5</td><td >Agent object tagging mechanism.</td>
-</tr>
-<tr>
-<td>4659</td><td>filter_sub</td><td>Agent 5</td><td >Filter query subscriptions.</td>
-</tr>
-
-<tr>
-<td>4660</td><td>dt_resource</td><td>Agent 5</td><td >File uploads/downloads</td>
-</tr>
-
-<tr>
-<td>4661</td><td>dt_notice</td><td>Agent 5</td><td >System notificaitons</td>
-</tr>
-
-<tr >
-<td>4662</td><td>dt_cm_contact</td><td>Agent 5</td><td >SQL View used by contracts </td>
-</tr>
-
-<tr >
-<td>4663</td><td>tagged_cases</td>/td><td>Agent 5</td><td >Tagged, open cases. Used by TOC </td>
-</tr>
-<tr >
-<td>4664</td><td>tagged_subcases</td>/td><td>Agent 5</td><td >Tagged, open subcases. Used by TOC </td>
-</tr>
-<tr >
-<td>4665</td><td>tagged_solutions</td>/td><td>Agent 5</td><td >Tagged, open solutions. Used by TOC </td>
-</tr>
-<tr >
-<td>4666</td><td>tagged_part_requests</td>/td><td>Agent 7</td><td >Tagged, open part requests. Used by TOC </td>
-</tr>
-
-<tr ><td>4666</td><td>dt_question_set</td>/td><td>ARC-selfservice project</td><td ></td></tr>
-<tr ><td>4667</td><td>dt_question</td>/td><td>ARC-selfservice project</td><td ></td></tr>
-<tr ><td>4668</td><td>dt_condition_action</td>/td><td>ARC-selfservice project</td><td ></td></tr>
-
-<tr ><td>4669</td><td>dt_web_log</td>/td><td>Agent 9</td><td ></td></tr>
-
-<tr >
-<td>4670</td><td>dt_file</td><td>FOCUS</td><td >Files, used as part of My Downloads in SelfService </td>
-</tr>
-
-<tr><td>4671</td><td>dt_token</td>/td><td>Agent 9</td><td ></td></tr>
-<tr><td>4672</td><td>dt_resource_token</td>/td><td>Agent 9</td><td ></td></tr>
-
-
-<tr>
-<td>4690</td><td>x_time_log_view</td><td>Agent 4</td><td ></td>
-</tr>
-<tr>
-<td>4691</td><td>x_subc_time_log_view</td><td>Agent 4</td><td ></td>
-</tr>
-
-<tr>
-<td>4698</td><td>fc_wipelm_case</td><td>FOCUS</td><td ></td>
-</tr>
-<tr>
-<td>4699</td><td>fc_queelm_case</td><td>FOCUS</td><td ></td>
-</tr>
-
-<tr>
-<td>4701</td><td>fc_licensing</td><td>SDK</td><td >First Choice Software licensing</td>
-</tr>
-<tr>
-<td>4702</td><td>fc_licensegrace</td><td>SDK</td><td >First Choice Software Licensing</td>
-</tr>
-<tr>
-	<td>4703</td><td>fc_loc_elm</td><td>SDK</td><td ></td>
-</tr>
-
-<tr>
-<td>4720</td><td>x_question</td><td>H&R Block - Mobile</td><td >Questions for an Escalation Template</td>
-</tr>
-<tr>
-<td>4721</td><td>x_escalation</td><td>H&R Block - Mobile</td><td >Escalation Template</td>
-</tr>
-<tr>
-<td>4723</td><td>x_top_consona_view</td><td>H&R Block - Mobile</td><td ></td>
-</tr>
-<tr>
-<td>4724</td><td>x_flags</td><td>Example</td><td >Flags for an object</td>
-</tr>
-<tr>
-<td>4725</td><td>x_question_view</td><td>H&R Block - Mobile</td><td >View of Escalation Template and Questions</td>
-</tr>
-<tr>
-
-<tr><td>4751</td><td>fc_profile</td><td>SelfService.NET</td><td></td></tr>
-<tr><td>4752</td><td>fc_profile_data</td><td>SelfService.NET</td><td></td></tr>
-<tr><td>4753</td><td>fc_personalization</td><td>SelfService.NET</td><td></td></tr>
-<tr><td>4754</td><td>fc_case_details</td><td>SelfService.NET</td><td></td></tr>
-
-<td>4756</td><td>fc_contact_view</td><td>Agent</td><td >Distinct contacts at a site with no duplicates in the case where a contact has multiple roles at a site.</td>
-</tr>
-<tr>
-<td>4888</td><td>fc_license_key</td><td>SDK</td><td ></td>
-</tr>
-<tr>
-<td>4901</td><td>case_clock</td><td>Example</td><td ></td>
-</tr>
-<tr>
-<td>4902</td><td>case_clock_view</td><td>Example</td><td ></td>
-</tr>
-<tr>
-<td>4999</td><td>event</td><td>Example</td><td >Stores event information</td>
-</tr>
-<tbody>
-</table>
-
-</body>
-</html>
+| ID | Name | Application | Comment |
+| --- | --- | --- | --- |
+| 501 | tagged_case_alst | FOCUS | used by watched cases report |
+| 3500 | fc_string | SDK | Locale-based strings for First Choice Software Customizations |
+| 3501 | fc_list_hdr | SDK | Header record for First Choice Software list object |
+| 3502 | fc_list_level | SDK | One level of a First Choice Software list |
+| 3503 | fc_list_elm | SDK | One element in a First Choice Software list |
+| 3504 | fc_list_locelm | SDK | One locale string for an element in a First Choice Software list |
+| 3505 | fc_locale | SDK |
+| 3516 | workgroup | Queue Groups, Admin, Agent 4 |
+| 3517 | Queue Groups | Reserved for Queue Groups |
+| 3518 | Queue Groups | Reserved for Queue Groups |
+| 3519 | Queue Groups | Reserved for Queue Groups |
+| 3520 | Survey Taker | Reserved for Survey Taker |
+| 3521 | Survey Taker | Reserved for Survey Taker |
+| 3522 | Survey Taker | Reserved for Survey Taker |
+| 3523 | Survey Taker | Reserved for Survey Taker |
+| 3524 | Survey Taker | Reserved for Survey Taker |
+| 3525 | sci_last_dir | SCI | Reserved for Source Control Interface |
+| 3526 | SCI | Reserved for Source Control Interface |
+| 3527 | SCI | Reserved for Source Control Interface |
+| 3528 | SCI | Reserved for Source Control Interface |
+| 3529 | SCI | Reserved for Source Control Interface |
+| 3530 | work_order | Logistics |
+| 3531 | work_order_moved | Logistics |
+| 3532 | fifo_cost | Logistics |
+| 3533 | fifo_cost_view | Logistics |
+| 3534 | batch | Logistics |
+| 3535 | container | Logistics |
+| 3536 | cont_dtl_qty | Logistics |
+| 3537 | container_view | Logistics |
+| 3538 | batch_def | Logistics |
+| 3539 | inv_sum | Logistics |
+| 3540 | Reserved for Logistics Products |
+| 3541 | Reserved for Logistics Products |
+| 3542 | Reserved for Logistics Products |
+| 3543 | Reserved for Logistics Products |
+| 3544 | Reserved for Logistics Products |
+| 3545 | Reserved for Logistics Products |
+| 3546 | Reserved for Logistics Products |
+| 3547 | Reserved for Logistics Products |
+| 3548 | Reserved for Logistics Products |
+| 3549 | Reserved for Logistics Products |
+| 3550 | page_request | RPA |
+| 3551 | page_response | RPA |
+| 3552 | view_pages | RPA |
+| 3553 | RPA | Reserved for RPA |
+| 3554 | RPA | Reserved for RPA |
+| 3555 | zipcode | PCAL, Admin, Agent 4 | Stores zipcodes and related city, state, country, timezone info |
+| 3556 | street | PCAL |
+| 3557 | street_suffix | PCAL |
+| 3558 | PCAL | Reserved for PCAL |
+| 3559 | pet_view | PET | Product Email Tool |
+| 3560 | contracted_site_parts | FOCUS | Installed Parts Covered by a Contract |
+| 3561 | ami_object | AMI Interface |
+| 3562 | ami_attr_history | AMI Interface |
+| 3563 | ami_system | AMI Interface |
+| 3564 | ami_system | AMI Interface | Reserved for AMI |
+| 3565 | ami_system | AMI Interface | Reserved for AMI |
+| 3566 | ami_system | AMI Interface | Reserved for AMI |
+| 3567 | ami_system | AMI Interface | Reserved for AMI |
+| 3568 | ami_system | AMI Interface | Reserved for AMI |
+| 3569 | ami_system | AMI Interface | Reserved for AMI |
+| 3570 | Flexible Pricing | Reserved for Flexible Pricing |
+| 3571 | Flexible Pricing | Reserved for Flexible Pricing |
+| 3572 | Flexible Pricing | Reserved for Flexible Pricing |
+| 3573 | Flexible Pricing | Reserved for Flexible Pricing |
+| 3574 | Flexible Pricing | Reserved for Flexible Pricing |
+| 3579 | fc_license_key | FOCUS | License Keys |
+| 3580 | restriction | Admin, Agent, SDK | Restriction groups |
+| 3581 | RES | Reserved for RES |
+| 3582 | RES | Reserved for RES |
+| 3583 | RES | Reserved for RES |
+| 3584 | RES | Reserved for RES |
+| 3590 | SLA Monitor | Reserved for SLAM |
+| 3591 | SLA Monitor | Reserved for SLAM |
+| 3592 | SLA Monitor | Reserved for SLAM |
+| 3593 | SLA Monitor | Reserved for SLAM |
+| 3594 | SLA Monitor | Reserved for SLAM |
+| 3600 | query_objs | QA, Admin, Agent 4 | Query objects |
+| 3601 | query_props | QA, Admin, Agent 4 | Query properties |
+| 3602 | query_query | QA, Admin, Agent 4 | One specific query |
+| 3603 | query_clause | QA, Admin, Agent 4 | A clause for a specific query |
+| 3604 | query_param | QA, Admin, Agent 4 | A parameter for a clause for a specific user |
+| 3605 | QA | Reserved for Query Anything |
+| 3606 | QA | Reserved for Query Anything |
+| 3607 | QA | Reserved for Query Anything |
+| 3608 | QA | Reserved for Query Anything |
+| 3609 | QA | Reserved for Query Anything |
+| 3610 | Vendor Ops | Reserved for Vendor Ops module |
+| 3611 | Vendor Ops | Reserved for Vendor Ops module |
+| 3612 | Vendor Ops | Reserved for Vendor Ops module |
+| 3613 | Vendor Ops | Reserved for Vendor Ops module |
+| 3614 | Vendor Ops | Reserved for Vendor Ops module |
+| 3615 | Vendor Ops | Reserved for Vendor Ops module |
+| 3616 | Vendor Ops | Reserved for Vendor Ops module |
+| 3617 | Vendor Ops | Reserved for Vendor Ops module |
+| 3618 | Vendor Ops | Reserved for Vendor Ops module |
+| 3619 | Vendor Ops | Reserved for Vendor Ops module |
+| 3620 | Vendor Ops | Reserved for Vendor Ops module |
+| 3621 | Vendor Ops | Reserved for Vendor Ops module |
+| 3622 | Vendor Ops | Reserved for Vendor Ops module |
+| 3623 | Vendor Ops | Reserved for Vendor Ops module |
+| 3624 | Vendor Ops | Reserved for Vendor Ops module |
+| 3625 | Vendor Ops | Reserved for Vendor Ops module |
+| 3626 | Vendor Ops | Reserved for Vendor Ops module |
+| 3627 | Vendor Ops | Reserved for Vendor Ops module |
+| 3628 | Vendor Ops | Reserved for Vendor Ops module |
+| 3629 | Vendor Ops | Reserved for Vendor Ops module |
+| 3630 | recent_obj | Admin, Agent 4, Agent 5, ROOM | Recently Accessed objects |
+| 3635 | sec_tag | SEC | Super email clerk header table |
+| 3636 | sec_subtag | SEC | Super email clerk subtag table |
+| 3637 | sec_error | SEC | Super email clerk error strings |
+| 3638 | SEC | Reserved for Super Email Clerk |
+| 3639 | SEC | Reserved for Super Email Clerk |
+| 3640 | SEC | Reserved for Super Email Clerk |
+| 3641 | SEC | Reserved for Super Email Clerk |
+| 3642 | SEC | Reserved for Super Email Clerk |
+| 3643 | SEC | Reserved for Super Email Clerk |
+| 3644 | SEC | Reserved for Super Email Clerk |
+| 3645 | SEC | Reserved for Super Email Clerk |
+| 3646 | labor_rate | Consultant Invoicer |
+| 3647 | case_emp_labor_rate_v | Consultant Invoicer |
+| 3648 | Consultant Invoicer | Reserved for Consultant Invoicer |
+| 3649 | Consultant Invoicer | Reserved for Consultant Invoicer |
+| 3650 | Consultant Invoicer | Reserved for Consultant Invoicer |
+| 3700 | email_recipients | EEO, Agent 4 | Enhanced Emailer list of recipients |
+| 4000 | fc_case2rip_dfe | Reserved; obsolete |
+| 4001 | fc_text_view2 | Reserved; obsolete |
+| 4270 | preference_view | Merge |
+| 4271 | merge_address_view | Merge, Agent 4 | Joins address, country, state, and time_zone |
+| 4300 | alert_to_other | Flashes Anywhare, Agent 4 | Relates alerts to other tables |
+| 4301 | alert_table | Flashes Anywhere, Agent 4 | Lists tables that can have alerts on them. Also, query information for them. |
+| 4302 | alert_view | Flashes Anywhere, Agent 4 | Alerts and alert_to_other |
+| 4303 | dt_search | Flashes Anywhere, Agent 4, Agent 5 |
+| 4304 | password_reset | Flashes Anywhere, Agent 4, Agent 5 |
+| 4305 | Flashes Anywhere | Reserved for Flashes Anywhere |
+| 4310 | ce_object | Agent 4 | CE objects |
+| 4311 | ce_col | Agent 4 | Properties/output/sort columns |
+| 4312 | ce_query | Agent 4 | Data record for one query |
+| 4313 | ce_clause | Agent 4 | A clause for a specific query |
+| 4314 | ce_param | Agent 4 | A parameter for a clause for a specific user |
+| 4315 | ce_iconified | Agent 4 | Iconified Queries |
+| 4316 | ce_query_col | Agent 4 | Personalized Output Columns for a Query |
+| 4317 | Clarify Explorer | Reserved for CE |
+| 4318 | Clarify Explorer | Reserved for CE |
+| 4319 | Clarify Explorer | Reserved for CE |
+| 4320 | Clarify Explorer | Reserved for CE |
+| 4321 | Clarify Explorer | Reserved for CE |
+| 4322 | Clarify Explorer | Reserved for CE |
+| 4323 | Clarify Explorer | Reserved for CE |
+| 4324 | Clarify Explorer | Reserved for CE |
+| 4325 | Clarify Explorer | Reserved for CE |
+| 4326 | Clarify Explorer | Reserved for CE |
+| 4327 | Clarify Explorer | Reserved for CE |
+| 4328 | Clarify Explorer | Reserved for CE |
+| 4329 | Clarify Explorer | Reserved for CE |
+| 4350 | Login Monitor | Reserved for Login Monitor |
+| 4351 | Login Monitor | Reserved for Login Monitor |
+| 4352 | Login Monitor | Reserved for Login Monitor |
+| 4353 | Login Monitor | Reserved for Login Monitor |
+| 4354 | Login Monitor | Reserved for Login Monitor |
+| 4355 | Login Monitor | Reserved for Login Monitor |
+| 4400 | console_columns | Agent 4 | Personalized Console Columns |
+| 4600 | x_web_cmd | Admin, Agent 4, Agent 5 | Commands available to web users. |
+| 4601 | res_tbls | RES, Admin, Agent 4 | Tables that have restriction fields |
+| 4602 | res_sql_clause | RES, Admin, Agent 4 | SQL clauses for restricting tables |
+| 4603 | assoc_bugs_master | Agent 4 | View information of master CR for duplicates. |
+| 4604 | rep_bugs_master | Agent 4 | View information of master CR for replicates. |
+| 4605 | fc_message | Agent 4 | Defines a message used by the fcclient notifier |
+| 4606 | fc_color | Admin, Agent 4 | Colors available for users to set |
+| 4607 | fc_valid_color | Admin, Agent 4 | Valid colors for the system |
+| 4608 | interact_site | Agent 4 | Joins interaction to site (via new relation for fcClient) |
+| 4609 | web_form | Admin, Agent 4 | Each row represents one FCS web form |
+| 4610 | wf_ver | Admin, Agent 4 | Each row represents one custom version of an FCS web form |
+| 4611 | web_rc_config | Admin, Agent 4 | Displays web forms and versions in a resource configuration |
+| 4612 | pr_hdr_site | Agent 4 | Joins part rquest header to site |
+| 4615 | fc_case_view | Agent 4 |
+| 4616 | fc_contract_view | Agent 4 |
+| 4617 | fc_gen_alst | Agent 4 |
+| 4618 | fc_site_part_view | Agent 4 |
+| 4619 | fc_bug_view | Agent 4 |
+| 4620 | fc_acct_ind_view | Agent 4 |
+| 4621 | fc_acct_task_view | Agent 4 |
+| 4622 | fc_acct_opp_view | Agent 4 |
+| 4623 | fc_acct_site_view | Agent 4 | Account, site and address information used on form Console-Sales (12000) |
+| 4624 | fc_acct_notes_view | Agent 4 |
+| 4625 | fc_acct_phone_view | Agent 4 |
+| 4626 | fc_acct_email_view | Agent 4 |
+| 4627 | fc_quote_view | Agent 4 |
+| 4628 | fc_wipelm_task | Agent 4 | View task information for WIPbin form (375) |
+| 4629 | fc_queelm_task | Agent 4 | View task information for Queue form (375) |
+| 4630 | fc_mod_level_view | Agent 4 |
+| 4631 | fc_cm_contact | Agent 4 | Contract Manager - Related Contacts. Used in fcclient Contract Product Details Page |
+| 4632 | fc_cm_site | Agent 4 | Contract Manager - Related Sites. |
+| 4634 | fc_login_monitor | Agent 4, Agent 5, Mobile |
+| 4635 | fc_login_monitor_view | Agent 4, Agent 5, Mobile |
+| 4640 | fc_hgbst_view | Admin |
+| 4641 | fc_hgbst_view2 | Admin |
+| 4650 | fc_user_case_view | Agent |
+| 4651 | fc_user_subcase_view | Agent |
+| 4652 | fc_user_solution_view | Agent |
+| 4654 | filter_query | Agent 5 | Filter query |
+| 4655 | fc_product_releases | FOCUS |
+| 4656 | filter_facet | Agent 5 | Facets specified for a filter query |
+| 4657 | filter_sort | Agent 5 | Sorts specified for a filter query |
+| 4658 | tag | Agent 5 | Agent object tagging mechanism. |
+| 4659 | filter_sub | Agent 5 | Filter query subscriptions. |
+| 4660 | dt_resource | Agent 5 | File uploads/downloads |
+| 4661 | dt_notice | Agent 5 | System notificaitons |
+| 4662 | dt_cm_contact | Agent 5 | SQL View used by contracts |
+| 4663 | tagged_cases | Agent 5 | Tagged, open cases. Used by TOC |
+| 4664 | tagged_subcases | Agent 5 | Tagged, open subcases. Used by TOC |
+| 4665 | tagged_solutions | Agent 5 | Tagged, open solutions. Used by TOC |
+| 4666 | tagged_part_requests | Agent 7 | Tagged, open part requests. Used by TOC |
+| 4666 | dt_question_set | ARC-selfservice project |
+| 4667 | dt_question | ARC-selfservice project |
+| 4668 | dt_condition_action | ARC-selfservice project |
+| 4669 | dt_web_log | Agent 9 |
+| 4670 | dt_file | FOCUS | Files, used as part of My Downloads in SelfService |
+| 4671 | dt_token | Agent 9 |
+| 4672 | dt_resource_token | Agent 9 |
+| 4690 | x_time_log_view | Agent 4 |
+| 4691 | x_subc_time_log_view | Agent 4 |
+| 4698 | fc_wipelm_case | FOCUS |
+| 4699 | fc_queelm_case | FOCUS |
+| 4701 | fc_licensing | SDK | First Choice Software licensing |
+| 4702 | fc_licensegrace | SDK | First Choice Software Licensing |
+| 4703 | fc_loc_elm | SDK |
+| 4720 | x_question | H&R Block - Mobile | Questions for an Escalation Template |
+| 4721 | x_escalation | H&R Block - Mobile | Escalation Template |
+| 4723 | x_top_consona_view | H&R Block - Mobile |
+| 4724 | x_flags | Example | Flags for an object |
+| 4725 | x_question_view | H&R Block - Mobile | View of Escalation Template and Questions |
+| 4751 | fc_profile | SelfService.NET |
+| 4752 | fc_profile_data | SelfService.NET |
+| 4753 | fc_personalization | SelfService.NET |
+| 4754 | fc_case_details | SelfService.NET |
+| 4756 | fc_contact_view | Agent | Distinct contacts at a site with no duplicates in the case where a contact has multiple roles at a site. |
+| 4888 | fc_license_key | SDK |
+| 4901 | case_clock | Example |
+| 4902 | case_clock_view | Example |
+| 4999 | event | Example | Stores event information |
