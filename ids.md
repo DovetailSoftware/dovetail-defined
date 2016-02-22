@@ -1,6 +1,4 @@
 ---
-title: Dovetail Custom Tables / Views
-layout: post
 ---
 
 # Dovetail Custom Tables / Views
