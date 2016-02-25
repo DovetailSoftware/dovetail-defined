@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Dovetail Custom User-defined Lists
 description: Custom User-defined Lists created by Dovetail
 ---
