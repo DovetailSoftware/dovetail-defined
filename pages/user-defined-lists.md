@@ -20,7 +20,8 @@ intval1 is a trick/hack that allows for setting uniqueness of a hgbst_elm within
 this allows for importing the same DAT file multiple times, and doing an update on a hgbst_elm (if it exists).
 without this, everytime we import a DAT file, we would get new hgbst_elm records inserted, which is not what we want.
 
-Example:
+#### Example
+
 ~~~
 OBJECT TYPE="hgbst_elm", NAME="hgbst_elm1"
 UNIQUE_FIELD=title,intval1
