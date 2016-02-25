@@ -12,6 +12,7 @@ description: Custom User-defined Lists created by Dovetail
 | Task Action | Agent (v10)  | 1001 | Task Manager|
 | Task Status | Agent (v10)  | 1002 | Task Manager|
 | Task Data Type | Agent (v10)  | 1003 | Task Manager|
+| Create Subcase Params | Agent (v10)  | 1004 | Task Manager|
 
 ---
 
