@@ -1,3 +1,9 @@
+---
+layout: default
+title: Dovetail Custom Clarify Client Forms
+description: Custom Clarify Client Forms created by Dovetail
+---
+
 # Clarify Client Forms
 
 *   [Custom](#custom)
