@@ -14,6 +14,7 @@ description: Custom User-defined Lists created by Dovetail
 | Task Data Type | Agent (v10)  | 1003 | Task Manager|
 
 ---
+
 ### intval1
 
 intval1 is a trick/hack that allows for setting uniqueness of a hgbst_elm within a DAT file.
