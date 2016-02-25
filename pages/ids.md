@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Dovetail Custom Tables / Views
 description: Table/View IDs used by Dovetail
 ---
