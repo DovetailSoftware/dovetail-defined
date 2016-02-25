@@ -1,3 +1,9 @@
+---
+layout: default
+title: Dovetail Custom Strings
+description: Custom Strings created by Dovetail
+---
+
 # Strings
 
 The following are the ranges for strings in the string table assigned to Dovetail products.
