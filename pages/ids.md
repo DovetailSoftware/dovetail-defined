@@ -11,6 +11,7 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | ID | Name | Application | Comment |
 | --- | --- | --- | --- |
 | 501 | tagged_case_alst | FOCUS | used by watched cases report |
+| 502 | dt_contact_view | FOCUS | useful for reporting |
 | 3500 | fc_string | SDK | Locale-based strings for First Choice Software Customizations |
 | 3501 | fc_list_hdr | SDK | Header record for First Choice Software list object |
 | 3502 | fc_list_level | SDK | One level of a First Choice Software list |
