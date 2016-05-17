@@ -14,6 +14,8 @@ description: Custom User-defined Lists created by Dovetail
 | Task Data Type | Agent (v10)  | 1003 | Task Manager|
 | Create Subcase Params | Agent (v10)  | 1004 | Task Manager|
 | Create Action Item Params | Agent  | 1005 | Task Manager|
+| Canned Response Availability | Agent (v11) | 1006 | Canned Responses feature|
+
 
 ---
 
