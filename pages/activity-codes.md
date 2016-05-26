@@ -14,6 +14,7 @@ description: Custom Activity Codes created by Dovetail
 | 94004 | Login | Selfservive | used in Hub (Dovetail internal selfservice app)|
 | 94005 | Replicate To | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 94006 | Replicate From | Agent (v7)  | used in Agent 7 for replicating part requests|
+| 94007 | Next Action Due Date Calculated | FOCUS   | Dovetail internal use - SLA calculation |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
