@@ -20,6 +20,7 @@ OBJECT  TYPE="prop_name", NAME=Next_Action_Due_Date
    path_name="x_next_action_due_date";
    val_type=609;
    max_len=30;
+   extra_info = "Next Action Due Date";
   END_FIELDS
 END_OBJECT  NAME=Next_Action_Due_Date 
 ```
