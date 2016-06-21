@@ -15,6 +15,7 @@ description: Custom Activity Codes created by Dovetail
 | 95005 | Replicate To | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 95006 | Replicate From | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 94007 | Next Action Due Date Calculated | FOCUS   | Dovetail internal use - SLA calculation |
+| 94008 | Change Severity | Agent 11+   | Change Severity |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
