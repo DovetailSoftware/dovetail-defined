@@ -236,6 +236,7 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4675 | dt_property_template | Agent 10 | Dovetail Task Manager
 | 4676 | dt_configured_property | Agent 10 | Dovetail Task Manager
 | 4677 | canned_response | Agent 11 | Canned Response
+| 4678 | tagged_crs | Agent 12 | Tagged, open change requests. Used by TOC |
 | 4690 | x_time_log_view | Agent 4 |
 | 4691 | x_subc_time_log_view | Agent 4 |
 | 4698 | fc_wipelm_case | FOCUS |
