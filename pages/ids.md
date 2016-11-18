@@ -12,6 +12,10 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | --- | --- | --- | --- |
 | 501 | tagged_case_alst | FOCUS | used by watched cases report |
 | 502 | dt_contact_view | FOCUS | useful for reporting |
+| 3000 | x_thirdparty_addr | ARC project |
+| 3002 | x_county | ARC project |
+| 3003 | arc_financial_view | ARC project |
+| 3004 | arc_dictionary | ARC project |
 | 3500 | fc_string | SDK | Locale-based strings for First Choice Software Customizations |
 | 3501 | fc_list_hdr | SDK | Header record for First Choice Software list object |
 | 3502 | fc_list_level | SDK | One level of a First Choice Software list |
@@ -211,16 +215,28 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4650 | fc_user_case_view | Agent |
 | 4651 | fc_user_subcase_view | Agent |
 | 4652 | fc_user_solution_view | Agent |
+| 4652 | arc_case_access_task | ARC project |
+| 4653 | arc_case_access | ARC project |
 | 4654 | filter_query | Agent 5 | Filter query |
+| 4654 | arc_case_service | ARC project |
 | 4655 | fc_product_releases | FOCUS |
+| 4655 | arc_financial_info | ARC project |
 | 4656 | filter_facet | Agent 5 | Facets specified for a filter query |
+| 4656 | arc_contact_access | ARC project |
 | 4657 | filter_sort | Agent 5 | Sorts specified for a filter query |
+| 4657 | arc_disbursement | ARC project |
 | 4658 | tag | Agent 5 | Agent object tagging mechanism. |
+| 4658 | arc_budget | ARC project |
 | 4659 | filter_sub | Agent 5 | Filter query subscriptions. |
+| 4659 | arc_dependent | ARC project |
 | 4660 | dt_resource | Agent 5 | File uploads/downloads |
+| 4660 | arc_income | ARC project |
 | 4661 | dt_notice | Agent 5 | System notificaitons |
+| 4661 | arc_expense | ARC project |
 | 4662 | dt_cm_contact | Agent 5 | SQL View used by contracts |
+| 4662 | arc_payment | ARC project |
 | 4663 | tagged_cases | Agent 5 | Tagged, open cases. Used by TOC |
+| 4663 | arc_allotment | ARC project |
 | 4664 | tagged_subcases | Agent 5 | Tagged, open subcases. Used by TOC |
 | 4665 | tagged_solutions | Agent 5 | Tagged, open solutions. Used by TOC |
 | 4666 | tagged_part_requests | Agent 7 | Tagged, open part requests. Used by TOC |
@@ -255,7 +271,11 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4752 | fc_profile_data | SelfService.NET |
 | 4753 | fc_personalization | SelfService.NET |
 | 4754 | fc_case_details | SelfService.NET |
-| 4756 | fc_contact_view | Agent | Distinct contacts at a site with no duplicates in the case where a contact has multiple roles at a site. |
+| 4756 | fc_contact_view | Agent | Distinct contacts at a site with no duplicates |
+| 4759 | arc_case_upload | ARC project |
+| 4760 | arc_queue_routing | ARC project |
+| 4761 | arc_queue_routing_view | ARC project |
+| 4762 | arc_interact_view | ARC project |
 | 4888 | fc_license_key | SDK |
 | 4901 | case_clock | Example |
 | 4902 | case_clock_view | Example |
