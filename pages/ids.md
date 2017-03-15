@@ -255,6 +255,7 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4678 | tagged_crs | Agent 12 | Tagged, open change requests. Used by TOC |
 | 4679 | linked_crs | Agent 12 | Linked change requests. Used by Linked CR tab |
 | 4680 | dt_test | Agent 13 | Used internally for testing |
+| 4681 | shared_item | Agent 16 | Shared Items  |
 | 4690 | x_time_log_view | Agent 4 |
 | 4691 | x_subc_time_log_view | Agent 4 |
 | 4698 | fc_wipelm_case | FOCUS |
