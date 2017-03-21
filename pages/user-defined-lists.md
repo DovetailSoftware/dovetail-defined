@@ -16,6 +16,7 @@ description: Custom User-defined Lists created by Dovetail
 | Create Action Item Params | Agent  | 1005 | Task Manager|
 | Canned Response Availability | Agent (v11) | 1006 | Canned Responses feature|
 | Canned Response Object Type | Agent (v11) | 1007 | Canned Responses feature|
+| Dovetail Feedback Subject | Agent (v16) | 1008 | Submit feedback fuctionlity|
 
 ---
 
