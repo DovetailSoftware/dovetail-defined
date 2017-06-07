@@ -18,6 +18,7 @@ description: Custom User-defined Lists created by Dovetail
 | Canned Response Object Type | Agent (v11) | 1007 | Canned Responses feature|
 | Dovetail Feedback Subject | Agent (v16) | 1008 | Submit feedback fuctionlity|
 | Auto-Dest Operations | Agent (v17) | 1009 | Auto Dest operations|
+| Themes | Agent (v18) | 1010 | Agent Theme Options|
 
 ---
 
