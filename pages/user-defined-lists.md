@@ -19,6 +19,14 @@ description: Custom User-defined Lists created by Dovetail
 | Dovetail Feedback Subject | Agent (v16) | 1008 | Submit feedback fuctionlity|
 | Auto-Dest Operations | Agent (v17) | 1009 | Auto Dest operations|
 | Themes | Agent (v18) | 1010 | Agent Theme Options|
+| Subcase Types | Agent (v18) | 1011 | Subcase Types |
+| Site Type | Agent (v18) | 1012 | Site Type |
+| Site Status | Agent (v18) | 1013 | Site Status |
+| Contact Status | Agent (v18) | 1014 | Contact Status |
+| User Status | Agent (v18) | 1015 | User Status |
+| Contact Expertise | Agent (v18) | 1016 | Contact Expertise |
+| Notification Types | Agent (v18) | 1017 | Notification Types |
+| Conditions | Agent (v18) | 1018 | Conditions |
 
 ---
 
