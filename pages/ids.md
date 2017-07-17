@@ -277,6 +277,7 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4760 | arc_queue_routing | ARC project |
 | 4761 | arc_queue_routing_view | ARC project |
 | 4762 | arc_interact_view | ARC project |
+| 4800 | case_contact_role | DMHC project | roles that contacts have for cases |
 | 4888 | fc_license_key | SDK |
 | 4901 | case_clock | Example |
 | 4902 | case_clock_view | Example |
