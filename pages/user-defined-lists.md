@@ -27,7 +27,7 @@ description: Custom User-defined Lists created by Dovetail
 | Contact Expertise | Agent (v18) | 1016 | Contact Expertise |
 | Notification Types | Agent (v18) | 1017 | Notification Types |
 | Conditions | Agent (v18) | 1018 | Conditions |
-} SelfService Menus | Agent (v18) | 1019 | Dynamic SelfService Menus |
+| SelfService Menus | Agent (v18) | 1019 | Dynamic SelfService Menus |
 
 ---
 
