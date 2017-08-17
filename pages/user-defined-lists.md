@@ -30,6 +30,14 @@ description: Custom User-defined Lists created by Dovetail
 | SelfService Menus | Agent (v18) | 1019 | Dynamic SelfService Menus |
 | Solution Type | Agent (v18) | 1020 | Solution type dropdown |
 
+
+# Dovetail Customer User-defined Lists
+
+| List Name | Application | intval1 | Comment |
+| --- | --- | --- | --- |
+| DMHC Coverage Types | Agent (v18) | 2000 | DMHC Coverage Type dropdown |
+| DMHC Product Types | Agent (v18) | 2001 | DMHC Product Type dropdown |
+
 ---
 
 #### what is intval1 and why is it used here?
