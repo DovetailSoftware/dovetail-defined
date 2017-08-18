@@ -37,6 +37,7 @@ description: Custom User-defined Lists created by Dovetail
 | --- | --- | --- | --- |
 | DMHC Coverage Types | Agent (v18) | 2000 | DMHC Coverage Type dropdown |
 | DMHC Product Types | Agent (v18) | 2001 | DMHC Product Type dropdown |
+| DMHC Contact Relationship | Agent (v18) | 2002 | DMHC Contact Relationship dropdown |
 
 ---
 
