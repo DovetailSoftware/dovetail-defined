@@ -42,6 +42,7 @@ description: Custom User-defined Lists created by Dovetail
 | DMHC Sub Action Types | Agent (v18) | 2004 | DMHC Sub-Action Type dropdown |
 | DMHC Action Reasons | Agent (v18) | 2005 | DMHC Action Reason dropdown |
 | DMHC Physician Role | Agent (v18) | 2006 | DMHC Physician Role dropdown |
+| New Case Type | Agent (v18) | 2007 | New Case Type dropdown |
 
 ---
 
