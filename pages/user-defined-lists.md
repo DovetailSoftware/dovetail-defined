@@ -44,6 +44,7 @@ description: Custom User-defined Lists created by Dovetail
 | DMHC Physician Role | Agent (v18) | 2006 | DMHC Physician Role dropdown |
 | DMHC Related Case Roles | Agent (v18) | 2007 | DMHC Related Case Roles dropdown |
 | DMHC Info Doc Type | Agent (v18) | 2008 | DMHC Info Doc Type dropdown |
+| DMHC Severity Change Reason | Agent (v18) | 2009 | DMHC Severity Change Reason dropdown |
 
 ---
 
