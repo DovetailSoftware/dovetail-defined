@@ -14,6 +14,8 @@ description: Custom Activity Codes created by Dovetail
 | 94004 | Login | Selfservive | used in Hub (Dovetail internal selfservice app)|
 | 95005 | Replicate To | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 95006 | Replicate From | Agent (v7)  | used in Agent 7 for replicating part requests|
+| 95007 | Duplicate To | Agent 18+ (DMHC) | used for duplicating cases|
+| 95008 | Duplicate From | Agent 18+ (DMHC) | used for duplicating cases|
 | 94007 | Next Action Due Date Calculated | FOCUS   | Dovetail internal use - SLA calculation |
 | 94008 | Change Severity | Agent 11+   | Change Severity |
 | 94009 | Change Case Type | Agent 18+ (DMHC)   | Change Case Type |
@@ -22,4 +24,3 @@ description: Custom Activity Codes created by Dovetail
 | 90300-90310 | |PO Module|
 | 90311-90360 | |Super Email Clerk|
 | 90361-90369 | |Contact/site merge|
-
