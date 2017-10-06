@@ -19,6 +19,9 @@ description: Custom Activity Codes created by Dovetail
 | 94007 | Next Action Due Date Calculated | FOCUS   | Dovetail internal use - SLA calculation |
 | 94008 | Change Severity | Agent 11+   | Change Severity |
 | 94009 | Change Case Type | Agent 18+ (DMHC)   | Change Case Type |
+| 94010 | Change Health Plan | Agent 18+ (DMHC)   | Change Health Plan |
+| 94011 | Add Health Plan | Agent 18+ (DMHC)   | Add Health Plan |
+| 94012 | Remove Health Plan | Agent 18+ (DMHC)   | Remove Health Plan |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
