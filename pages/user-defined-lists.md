@@ -29,7 +29,10 @@ description: Custom User-defined Lists created by Dovetail
 | Conditions | Agent (v18) | 1018 | Conditions |
 | SelfService Menus | Agent (v18) | 1019 | Dynamic SelfService Menus |
 | Solution Type | Agent (v18) | 1020 | Solution type dropdown |
-
+| Web Types | Agent (v18) | 1021 | Web Types dropdown |
+| Email Types | Agent (v18) | 1022 | Email Types dropdown |
+| Phone Types | Agent (v18) | 1023 | Phone Types dropdown |
+| Localizations | Agent (v18) | 1024 | Localizations dropdown |
 
 # Dovetail Customer User-defined Lists
 
