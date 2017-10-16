@@ -23,6 +23,9 @@ description: Custom Activity Codes created by Dovetail
 | 94011 | Add Health Plan | Agent 18+ (DMHC)   | Add Health Plan |
 | 94012 | Remove Health Plan | Agent 18+ (DMHC)   | Remove Health Plan |
 | 94013 | Due Date Calculated | Agent 18+ (DMHC)   | Due Date Calculated |
+| 94014 | Info Doc Added | Agent 18+ (DMHC)   | Info Doc Added |
+| 94015 | Info Doc Modified | Agent 18+ (DMHC)   | Info Doc Modified |
+| 94016 | Info Doc Deleted | Agent 18+ (DMHC)   | Info Doc Deleted |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
