@@ -26,6 +26,7 @@ description: Custom Activity Codes created by Dovetail
 | 94014 | Info Doc Added | Agent 18+ (DMHC)   | Info Doc Added |
 | 94015 | Info Doc Modified | Agent 18+ (DMHC)   | Info Doc Modified |
 | 94016 | Info Doc Deleted | Agent 18+ (DMHC)   | Info Doc Deleted |
+| 94017 | Primary Medical Record Received | Agent 18+ (DMHC)   | Primary Medical Record Received |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
