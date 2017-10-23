@@ -9,6 +9,7 @@ description: Dovetail Custom Business Rule Event Creation Times
 | Name | Path | Object Type  | Comment |
 | --- | --- | --- | --- |
 | @USERTIME150 | x_next_action_due_date | 0 (case)  | Next Action Due Date for SLA|
+| @USERTIME151 | x_imr_due_dt | 0 (case)  | Case Due Date|
 
 ### Example DAT file:
 ```
