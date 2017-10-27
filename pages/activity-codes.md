@@ -32,6 +32,10 @@ description: Custom Activity Codes created by Dovetail
 | 94020 | Contact Changed | Agent 18+ (DMHC)   | Contact Changed |
 | 94021 | Related To | Agent 18+ (DMHC)   | Related To |
 | 94022 | Unrelated From | Agent 18+ (DMHC)   | Unrelated From |
+| 94023 | RO Determination | Agent 18+ (DMHC)   | RO Determination |
+| 94024 | Extension Requested | Agent 18+ (DMHC)   | Extension Requested |
+| 94025 | Extension Approved | Agent 18+ (DMHC)   | Extension Approved |
+| 94026 | Extension Denied | Agent 18+ (DMHC)   | Extension Denied |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
