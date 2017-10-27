@@ -15,6 +15,10 @@ description: Custom Business Rule Events created by Dovetail
 | USER1009 | | Change Case Type (used in DMHC-agent)
 | USER1010 | | Primary Medical Record Received (used in DMHC-agent)
 | USER1011 | | Case Due Date Calculated (used in DMHC-agent)
+| USER1012 | | RO Determination (used in DMHC-agent)
+| USER1013 | | Extension Requested (used in DMHC-agent)
+| USER1014 | | Extension Approved (used in DMHC-agent)
+| USER1015 | | Extension Denied (used in DMHC-agent)
 | USER2500-USER2525 | SCI  | Source control operations|
 | USER2530-USER2539 | RPA  | Page request and response|
 | USER2550-USER2565| PO module  | Purchase Order operations|
