@@ -36,6 +36,7 @@ description: Custom Activity Codes created by Dovetail
 | 94024 | Extension Requested | Agent 18+ (DMHC)   | Extension Requested |
 | 94025 | Extension Approved | Agent 18+ (DMHC)   | Extension Approved |
 | 94026 | Extension Denied | Agent 18+ (DMHC)   | Extension Denied |
+| 94027 | Change Requested Severity | Agent 18+ (DMHC)   | Change Requested Severity |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
