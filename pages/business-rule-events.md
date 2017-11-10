@@ -20,6 +20,7 @@ description: Custom Business Rule Events created by Dovetail
 | USER1014 | | Extension Approved (used in DMHC-agent)
 | USER1015 | | Extension Denied (used in DMHC-agent)
 | USER1016 | | Subcase Due Date Calculated (used in DMHC-agent)
+| USER1017 | | Change Requested Severity (used in DMHC-agent)
 | USER2500-USER2525 | SCI  | Source control operations|
 | USER2530-USER2539 | RPA  | Page request and response|
 | USER2550-USER2565| PO module  | Purchase Order operations|
