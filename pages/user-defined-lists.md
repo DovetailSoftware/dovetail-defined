@@ -50,6 +50,7 @@ description: Custom User-defined Lists created by Dovetail
 | DMHC Severity Change Reason | Agent (v18) | 2009 | DMHC Severity Change Reason dropdown |
 | IMR SubCase SubType | Agent (v18) | 2010 | DMHC IMR SubCase SubType dropdown |
 | DMHC Company Type | Agent (v18) | 2011 | DMHC Company Type dropdown |
+| DMHC Correspondence Events | Agent (v18) | 2012 | DMHC Correspondence Events |
 
 ---
 
