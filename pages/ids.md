@@ -282,6 +282,10 @@ There are two ranges reserves for custom IDs: 430-571 and 2000-4999. The rest ar
 | 4802 | x_related_cases | DMHC project | related cases for a case |
 | 4803 | x_gsv_group | DMHC project | GSV (Grievance System Violation) Groups |
 | 4804 | x_gsv | DMHC project | GSV (Grievance System Violation) Items |
+| 4805 | dmhc_template | DMHC project | Templates used when generating correspondences |
+| 4806 | dmhc_correspondence | DMHC project | Options for generating correspondence documents|
+| 4807 | dmhc_first_case_diagnosis | DMHC project | First Diagnosis for a case |
+| 4808 | dmhc_first_case_treatment | DMHC project | First Treatment for a case |
 | 4888 | fc_license_key | SDK |
 | 4901 | case_clock | Example |
 | 4902 | case_clock_view | Example |
