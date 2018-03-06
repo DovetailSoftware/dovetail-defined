@@ -18,6 +18,17 @@ description: Custom Activity Codes created by Dovetail
 | 95006 | Replicate From | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 95007 | Duplicate To | Agent 18+ (DMHC) | used for duplicating cases|
 | 95008 | Duplicate From | Agent 18+ (DMHC) | used for duplicating cases|
+| 95009 | Create | Agent 19+ | used for creating a Business Rule |
+| 95010 | Edit | Agent 19+ | used for updating a Business Rule |
+| 95011 | Delete | Agent 19+ | used for deleting a Business Rule |
+| 95012 | Add Event | Agent 19+ | used for adding a Business Rule Event |
+| 95013 | Delete Event | Agent 19+ | used for deleting a Business Rule Event |
+| 95014 | Add Condition | Agent 19+ | used for adding a Business Rule Condition |
+| 95015 | Edit Condition | Agent 19+ | used for updating a Business Rule Condition |
+| 95016 | Delete Condition | Agent 19+ | used for deleting a Business Rule Condition |
+| 95017 | Add Action | Agent 19+ | used for adding a Business Rule Action |
+| 95018 | Edit Action | Agent 19+ | used for updating a Business Rule Action |
+| 95019 | Delete Action | Agent 19+ | used for deleting a Business Rule Action |
 | 94007 | Next Action Due Date Calculated | FOCUS | Dovetail internal use - SLA calculation |
 | 94008 | Change Severity | Agent 11+   | Change Severity |
 | 94009 | Change Case Type | Agent 18+ (DMHC)   | Change Case Type |
