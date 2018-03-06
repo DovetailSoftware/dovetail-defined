@@ -11,9 +11,9 @@ description: Custom Activity Codes created by Dovetail
 | 94001 | Run Task Set | Agent (v5)  | Task Manager|
 | 94002 | Impersonate | Agent (v5)  | Impersonate|
 | 94003 | Revert | Agent (v5)  | Revert impersonation|
-| 94004 | Login | Selfservive | used in Hub (Dovetail internal selfservice app)|
+| 94004 | Login | Selfservice | used in Hub (Dovetail internal selfservice app)|
 | 95003 | Add Child Case | Agent (v19) | used in Agent for adding child cases|
-| 95004 | Replicate To | Agent (v19) | used in Agent for removing child cases|
+| 95004 | Remove Child Case | Agent (v19) | used in Agent for removing child cases|
 | 95005 | Replicate To | Agent (v7) | used in Agent 7 for replicating part requests|
 | 95006 | Replicate From | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 95007 | Duplicate To | Agent 18+ (DMHC) | used for duplicating cases|
