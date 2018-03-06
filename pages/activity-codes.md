@@ -12,11 +12,13 @@ description: Custom Activity Codes created by Dovetail
 | 94002 | Impersonate | Agent (v5)  | Impersonate|
 | 94003 | Revert | Agent (v5)  | Revert impersonation|
 | 94004 | Login | Selfservive | used in Hub (Dovetail internal selfservice app)|
-| 95005 | Replicate To | Agent (v7)  | used in Agent 7 for replicating part requests|
+| 95003 | Add Child Case | Agent (v19) | used in Agent for adding child cases|
+| 95004 | Replicate To | Agent (v19) | used in Agent for removing child cases|
+| 95005 | Replicate To | Agent (v7) | used in Agent 7 for replicating part requests|
 | 95006 | Replicate From | Agent (v7)  | used in Agent 7 for replicating part requests|
 | 95007 | Duplicate To | Agent 18+ (DMHC) | used for duplicating cases|
 | 95008 | Duplicate From | Agent 18+ (DMHC) | used for duplicating cases|
-| 94007 | Next Action Due Date Calculated | FOCUS   | Dovetail internal use - SLA calculation |
+| 94007 | Next Action Due Date Calculated | FOCUS | Dovetail internal use - SLA calculation |
 | 94008 | Change Severity | Agent 11+   | Change Severity |
 | 94009 | Change Case Type | Agent 18+ (DMHC)   | Change Case Type |
 | 94010 | Change Health Plan | Agent 18+ (DMHC)   | Change Health Plan |
