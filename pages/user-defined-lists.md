@@ -52,6 +52,8 @@ description: Custom User-defined Lists created by Dovetail
 | IMR SubCase SubType | Agent (v18) | 2010 | DMHC IMR SubCase SubType dropdown |
 | DMHC Company Type | Agent (v18) | 2011 | DMHC Company Type dropdown |
 | DMHC Correspondence Events | Agent (v18) | 2012 | DMHC Correspondence Events |
+| HRB_HS_Category | Mobile | 2013 | Hot Spare Part Categories |
+
 
 ---
 
