@@ -29,6 +29,12 @@ description: Custom Activity Codes created by Dovetail
 | 95017 | Add Action | Agent 19+ | used for adding a Business Rule Action |
 | 95018 | Edit Action | Agent 19+ | used for updating a Business Rule Action |
 | 95019 | Delete Action | Agent 19+ | used for deleting a Business Rule Action |
+| 95020 | Add Task | Agent 20+ | used for adding a Task |
+| 95021 | Edit Task | Agent 20+ | used for updating a Task |
+| 95022 | Delete Task | Agent 20+ | used for deleting a Task |
+| 95023 | Add Task Set | Agent 20+ | used for adding a Task Set |
+| 95024 | Edit Task Set | Agent 20+ | used for updating a Task Set |
+| 95025 | Delete Task Set | Agent 20+ | used for deleting a Task Set |
 | 94007 | Next Action Due Date Calculated | FOCUS | Dovetail internal use - SLA calculation |
 | 94008 | Change Severity | Agent 11+   | Change Severity |
 | 94009 | Change Case Type | Agent 18+ (DMHC)   | Change Case Type |
