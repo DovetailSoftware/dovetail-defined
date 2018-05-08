@@ -34,6 +34,7 @@ description: Custom User-defined Lists created by Dovetail
 | Phone Types | Agent (v18) | 1023 | Phone Types dropdown |
 | Localizations | Agent (v18) | 1024 | Localizations dropdown |
 | HR Product Types | Agent (v19) | 1025 | Focus HR Product Types dropdown |
+| Broadcast Availability | Agent (v20) | 1026 | Limited broadcasts feature |
 
 # Dovetail Customer User-defined Lists
 
