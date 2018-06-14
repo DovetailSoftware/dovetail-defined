@@ -35,6 +35,8 @@ description: Custom Activity Codes created by Dovetail
 | 95023 | Add Task Set | Agent 20+ | used for adding a Task Set |
 | 95024 | Edit Task Set | Agent 20+ | used for updating a Task Set |
 | 95025 | Delete Task Set | Agent 20+ | used for deleting a Task Set |
+| 95026 | Create Interaction | Agent 20+ | used for creating an Interaction |
+| 95027 | Edit Interaction | Agent 20+ | used for updating an Interaction |
 | 94007 | Next Action Due Date Calculated | FOCUS | Dovetail internal use - SLA calculation |
 | 94008 | Change Severity | Agent 11+   | Change Severity |
 | 94009 | Change Case Type | Agent 18+ (DMHC)   | Change Case Type |
