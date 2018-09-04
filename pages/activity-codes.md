@@ -61,6 +61,7 @@ description: Custom Activity Codes created by Dovetail
 | 94028 | Final Review Completed | Agent 18+ (DMHC)   | Final Review Completed |
 | 94029 | Manager Review Completed | Agent 18+ (DMHC)   | Manager Review Completed |
 | 94030 | Change Patient Representation | Agent 18+ (DMHC)   | Change Patient Representation |
+| 94100 | View PGP Passphrase | Mobile Agent (HR Block) | View PGP Passphrase |
 | 90200-90219 | |Source Control Interface|
 | 90220-90229 | |RPA|
 | 90300-90310 | |PO Module|
