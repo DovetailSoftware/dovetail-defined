@@ -40,7 +40,8 @@ description: Custom Activity Codes created by Dovetail
 | 94027 | Change Requested Severity | Agent 18+ (DMHC)   | Change Requested Severity |
 | 94028 | Final Review Completed | Agent 18+ (DMHC)   | Final Review Completed |
 | 94029 | Manager Review Completed | Agent 18+ (DMHC)   | Manager Review Completed |
-| 94030 | Change Patient Representation | Agent 18+ (DMHC)   | Change Patient Representation |
+| 94030 | Undo Final Review | Agent 18+ (DMHC)   | Undo Final Review |
+| 94031 | Undo Manager Review | Agent 18+ (DMHC)   | Undo Manager Review |
 | 94800 | View PGP Passphrase | Mobile Agent (HR Block) | View PGP Passphrase |
 | 95003 | Add Child Case | Agent (v19) | used in Agent for adding child cases|
 | 95004 | Remove Child Case | Agent (v19) | used in Agent for removing child cases|
